@@ -17,7 +17,7 @@
 
 ## Quickstart — a green test in 60 seconds
 
-Three files. Copy them as-is and `mvn test` or `./mvnw test` goes green against a real Chrome.
+Three files. Copy them as-is and `mvn test` goes green against a real Chrome.
 
 **Prerequisites:** Java 17+, Maven 3.8+, Chrome installed. No WebDriver binaries — Selenium Manager fetches them.
 
@@ -89,7 +89,6 @@ Then:
 
 ```bash
 mvn test
-./mvnw test
 ```
 
 No driver setup, no teardown, no waits, no `WebDriver` to manage — `BaseTest` owns the lifecycle. The HTML report lands at `target/selenium-boot-report.html`.
